@@ -1,0 +1,13 @@
+version = 1
+
+# Everything else: the code, tests and scripts (LICENSE).
+[[annotations]]
+path = "**"
+SPDX-FileCopyrightText = "2026 the filamend contributors"
+SPDX-License-Identifier = "AGPL-3.0-only"
+
+# Documentation and repository metadata.
+[[annotations]]
+path = ["**/*.md", "docs/**", ".github/FUNDING.yml"]
+SPDX-FileCopyrightText = "2026 the filamend contributors"
+SPDX-License-Identifier = "MIT"
